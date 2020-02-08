@@ -1,0 +1,17 @@
+{
+  "name": "sails-hook-tg-logger",
+  "version": "1.0.0",
+  "description": "Telegram logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Egor Shulga",
+  "license": "ISC",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "telegraf": "^3.36.0"
+  }
+}
